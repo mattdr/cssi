@@ -29,7 +29,8 @@ def TopWords(words_dict):
         print word_string, "occurs",
         print words_dict[word_string], "times"
 
-    print "\nLeast common"
+    print ""
+    print "Least common"
     for word_string in sorted_words_list[-10:]:
         print word_string, "occurs",
         print words_dict[word_string], "times"
